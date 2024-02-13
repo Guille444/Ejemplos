@@ -1,4 +1,4 @@
-*/Ejemplo de INNER JOIN/*
+/*Ejemplo de INNER JOIN/*
 
 CREATE DATABASE ejemplo;
 
