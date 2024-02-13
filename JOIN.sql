@@ -1,4 +1,4 @@
-/*Ejemplo de INNER JOIN/*
+/*Ejemplo de INNER JOIN*/
 
 CREATE DATABASE ejemplo;
 
@@ -26,7 +26,7 @@ SELECT empleado.nombre, departamento.nombre
 FROM empleado
 INNER JOIN departamento ON empleado.departamento_id = departamento.id;
 
-*/Ejemplo de LFET JOIN/*
+/*Ejemplo de LFET JOIN*/
 
 CREATE DATABASE ejemplo2;
 
@@ -54,7 +54,7 @@ SELECT empleado.nombre, departamento.nombre
 FROM empleado
 LEFT JOIN departamento ON empleado.departamento_id = departamento.id;
 
-*/Ejemplo de RIGHT JOIN/*
+/*Ejemplo de RIGHT JOIN*/
 
 CREATE DATABASE ejemplo3;
 
@@ -82,7 +82,7 @@ SELECT empleado.nombre, departamento.nombre
 FROM empleado
 RIGHT JOIN departamento ON empleado.departamento_id = departamento.id;
 
-*/Ejemplo de FULL JOIN/*
+/*Ejemplo de FULL JOIN*/
 
 CREATE DATABASE ejemplo4;
 
@@ -115,7 +115,7 @@ FROM empleado
 RIGHT JOIN departamento ON empleado.departamento_id = departamento.id
 WHERE empleado.departamento_id IS NULL;
 
-*/Ejemplo de CROSS JOIN/*
+/*Ejemplo de CROSS JOIN*/
 
 CREATE DATABASE ejemplo5;
 
@@ -143,7 +143,7 @@ SELECT empleado.nombre, departamento.nombre
 FROM empleado
 CROSS JOIN departamento;
 
-*/Ejemplo de SELF JOIN/*
+/*Ejemplo de SELF JOIN*/
 
 CREATE DATABASE ejemplo6;
 
